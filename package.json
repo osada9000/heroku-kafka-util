@@ -1,0 +1,15 @@
+{
+  "name": "heroku_kafka_util",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "show_offset": "node ./src/show_offset.js",
+    "set_offset": "node ./src/set_offset.js",
+    "show_topic": "node ./src/show_topic.js"
+  },
+  "author": "Manabu Osada",
+  "license": "ISC",
+  "dependencies": {
+    "no-kafka": "^3.0.1"
+  }
+}
